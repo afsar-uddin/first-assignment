@@ -99,15 +99,15 @@ a {
 .about-me-area .half-width {
     padding: 0 12%;
 }
-.recipies-intro {
+.section-intro {
     max-width: 700px;
     margin: 0 auto;
     text-align: center;
 }
-.recipies-intro h2{
+.section-intro h2{
     color: #676767;
 }
-.recipies-intro p {
+.section-intro p {
     color: #252525;
 }
 .single-recipie {
@@ -123,9 +123,92 @@ a {
 .recipie-list {
     padding: 0 30px;
 }
-
+.mission_vision_area {
+    margin: 80px 0;
+}
 .single-recipie figure {
     padding: 30px;
     box-shadow: 5px 7px 20px grey;
     border-radius: 15px;
+}
+.visitors-row {
+    display: flex;
+    margin: 0 5%;
+    padding: 71px 50px;
+    box-shadow: 5px 7px 20px grey;
+    border-radius: 15px;
+}
+.visitors-col {
+    width: 33.33%;
+    text-align: center;
+}
+.visitors-col h3 {
+    font-size: 48px;
+    margin: 0;
+}
+.visitors-col p {
+    color: #18191F;
+    margin: 0;
+}
+.mv-row {
+    display: flex;
+}
+.mv-row .single-mv:first-child {
+    width: 20%;
+    padding: 0;
+    background-image: url("images/food/anarosh.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: cover;
+}
+.single-mv {
+    width: 40%;
+}
+.single-mv h3 {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: orange;
+    margin-bottom: 15px;
+}
+.mv-row .single-mv:nth-child(2) .single-mv-col:nth-child(2) h3 {
+    color: #fb531a;
+}
+.single-mv p {
+    font-size: 20px;
+}
+.single-mv-col ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.single-mv-col ul li {
+    margin: 15px 0;
+    font-size: 20px;
+    position: relative;
+    padding-left: 25px;
+}
+.single-mv-col ul li:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 6px;
+    height: 12px;
+    width: 12px;
+    background-color: orange;
+    border-radius: 50%;
+}
+footer {
+    background-color: #0B0D17;
+    text-align: center;
+    padding: 63px 5%;
+}
+footer h2 span {
+    color: orange;
+}
+footer h2 {
+    color: #5B5B5B;
+    text-transform: uppercase;
+}
+footer p {
+    color: #fff;
 }
