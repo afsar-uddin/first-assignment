@@ -20,11 +20,17 @@ a {
 .orange {
     color: #FBA24F;
 }
+.banner img{
+    vertical-align: middle;
+}
 .flex-container {
     display: flex;
 }
 .alighn-center {
     align-items: center;
+}
+.section-space {
+    margin: 80px 0;
 }
 .half-width {
     width: 50%;
@@ -38,13 +44,13 @@ a {
 }
 .banner figure:after {
     position: absolute;
+    content: "";
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.7);
-    z-index: 1;
-    content: "";
+    z-index: 0;
 }
 .banner figure figcaption {
     position: absolute;
@@ -53,7 +59,7 @@ a {
     transform: translate(-50%, -50%);
     text-align: center;
     color: #fff;
-    z-index: 2;
+    z-index: 1;
 }
 .banner figure figcaption h1 {
     font-size: 40px;
@@ -72,10 +78,6 @@ a {
 .link-btn:hover {
     background-image: linear-gradient(to right, #FF1E1E, #FBA24F);
 }
-.diet-area,
-.recipies-area {
-    margin: 80px 0;
-}
 .diet-area h2 {
     font-size: 60px;
     font-weight: 800;
@@ -84,17 +86,17 @@ a {
     font-size: 20px;
     font-weight: 600;
 }
-.about-me h2 {
-    color: #707070;
-}
-.about-me p {
-    color: #18191F;
-}
 .about-me-area {
     background-image: url("images/shape/about-me-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 80px;
+}
+.about-me-area h2 {
+    color: #707070;
+}
+.about-me-area p {
+    color: #18191F;
 }
 .about-me-area .half-width {
     padding: 0 12%;
@@ -122,9 +124,6 @@ a {
 }
 .recipie-list {
     padding: 0 30px;
-}
-.mission_vision_area {
-    margin: 80px 0;
 }
 .single-recipie figure {
     padding: 30px;
